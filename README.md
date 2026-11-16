@@ -1,5 +1,7 @@
 # Wealthfolio on Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/wealthfolio?utm_medium=integration&utm_source=button&utm_campaign=wealthfolio)
+
 This repo packages [Wealthfolio](https://github.com/wealthfolio/wealthfolio) (a private, local-first tracker for investments, net worth and spending) for one-click deploys on Railway.
 
 ## What the template deploys

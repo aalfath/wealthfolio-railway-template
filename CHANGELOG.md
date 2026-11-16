@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased (2026-11-16)
+
+- README: add the Deploy on Railway button for the published template `wealthfolio`. No change to the image or the app.
+
 ## 3.13.0-railway.1 (2026-11-16)
 
 **Breaking for anyone moving from the old image-based template:** the login no longer needs a pasted Argon2id hash. The template now generates `WF_ADMIN_PASSWORD` and hashes it at start. If you keep `WF_AUTH_PASSWORD_HASH`, it must start with `$argon2id$`.
