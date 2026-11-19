@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.13.1 (2026-11-19)
+
+- No breaking changes. Accounts, holdings and settings in the SQLite database on the volume are kept.
+- Wealthfolio [v3.13.1](https://github.com/afadil/wealthfolio/releases/tag/v3.13.1): bug fixes.
+- Image: `wealthfolio/wealthfolio:3.13.1@sha256:a51bf08440ec3c517b728e4d5a7d9134cc564e1749eec45bd4f0b7f39573336e`.
+
 ## Unreleased (2026-11-16)
 
 - README: add the Deploy on Railway button for the published template `wealthfolio`. No change to the image or the app.
