@@ -1,7 +1,7 @@
 # Wealthfolio for Railway: the official image, pinned by version and digest,
 # plus a small entrypoint that turns a generated password into the Argon2id
 # hash Wealthfolio expects.
-FROM wealthfolio/wealthfolio:3.13.0@sha256:6600feaa06910a35854bc07a4cdf943a29b4a7a443190912e3d3c02288533ed2
+FROM wealthfolio/wealthfolio:3.13.1@sha256:a51bf08440ec3c517b728e4d5a7d9134cc564e1749eec45bd4f0b7f39573336e
 
 USER root
 RUN apk add --no-cache argon2 su-exec

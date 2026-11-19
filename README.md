@@ -6,7 +6,7 @@ This repo packages [Wealthfolio](https://github.com/wealthfolio/wealthfolio) (a 
 
 ## What the template deploys
 
-- One service built from this repo's `Dockerfile`: the official image `wealthfolio/wealthfolio:3.13.0`, pinned by digest, plus a small entrypoint.
+- One service built from this repo's `Dockerfile`: the official image `wealthfolio/wealthfolio:3.13.1`, pinned by digest, plus a small entrypoint.
 - One volume at `/data` for the SQLite profile databases, the encrypted secrets vault and add-ons.
 - A Railway domain, with the health check on `/api/v1/healthz`.
 
